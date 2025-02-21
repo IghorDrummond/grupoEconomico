@@ -1,0 +1,53 @@
+/*Seção de obrigado*/
+section{
+	position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #333;
+}
+
+/* Vídeo de fundo */
+section video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); 
+    z-index: -1;
+}
+
+/* Conteúdo sobre o vídeo */
+section article{
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    font-family: "Jaturat";
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 1199px) {
+    section {
+        height: auto !important;
+        padding: 50px 20px;
+    }
+}

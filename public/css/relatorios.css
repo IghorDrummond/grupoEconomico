@@ -1,0 +1,27 @@
+section{
+    height: auto;
+}
+/* Estilo da página */
+.relatorios {
+    background: rgba( 19, 19, 19, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 100vh;
+}
+
+.row div:nth-child(1){
+    border-right: 2px solid white;
+}
+
+@media (max-width: 1199px){
+    .row{
+        height: auto;
+    }
+    .row div:nth-child(1){
+        border-right: none;
+        border-bottom: 2px solid white;
+    }
+}
