@@ -25,6 +25,9 @@
 	<meta name="twitter:description" content="@yield('twitter_description', 'Site para Grupo Econômico.')">
 	<meta name="twitter:image" content="@yield('twitter_image', asset('img/favicon.ico'))">
 
+	<!-- Normalize -->
+	<link rel="stylesheet" href="{{ asset("css/normalize.css") }}">
+
 	<!-- Bootstrap 5 -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">

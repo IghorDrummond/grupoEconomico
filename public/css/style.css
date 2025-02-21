@@ -50,12 +50,14 @@ dialog{
     height: 100vh;
     z-index: 8888;
     background: rgba( 19, 19, 19, 0.8 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    animation: esmanhecer 2s ease;
+    -webkit-animation: esmanhecer 2s ease;
+            animation: esmanhecer 2s ease;
 }
 
 /* Sessão estilizada */
